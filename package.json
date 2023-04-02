@@ -1,0 +1,19 @@
+{
+  "name": "fylo-dark-theme-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url ./ --dist-dir public"
+  },
+  "author": "slightlyfunctional",
+  "devDependencies": {
+    "@fontsource/open-sans": "^4.5.14",
+    "@fontsource/raleway": "^4.5.12",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "parcel": "^2.8.3",
+    "tailwindcss": "^3.3.1"
+  }
+}
