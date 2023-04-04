@@ -13,6 +13,7 @@ module.exports = {
         'quotes': 'url("./images/bg-quotes.png")'
       },
       colors: {
+        'cyan': 'hsl(176, 68%, 64%)',
         'dark-blue-intro': 'hsl(217, 28%, 15%)',
         'dark-blue-main': 'hsl(218, 28%, 13%)'
       }
