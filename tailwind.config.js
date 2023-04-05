@@ -13,9 +13,13 @@ module.exports = {
         'quotes': 'url("./images/bg-quotes.png")'
       },
       colors: {
+        'blue': 'hsl(198, 60%, 50%)',
         'cyan': 'hsl(176, 68%, 64%)',
+        'light-red': 'hsl(0, 100%, 63%)',
         'dark-blue-intro': 'hsl(217, 28%, 15%)',
-        'dark-blue-main': 'hsl(218, 28%, 13%)'
+        'dark-blue-main': 'hsl(218, 28%, 13%)',
+        'dark-blue-testimonials': 'hsl(219, 30%, 18%)',
+        'dark-blue-footer': 'hsl(216, 53%, 9%)'
       }
     },
   },

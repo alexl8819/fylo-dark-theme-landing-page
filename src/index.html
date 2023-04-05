@@ -50,7 +50,7 @@
             <p class="text-sm text-center mb-6 px-3.5">Fylo stores all your most important files in one secure location. Access them wherever 
             you need, share and collaborate with friends family, and co-workers.</p>
   
-            <button class="bg-cyan w-52 py-3 px-6 rounded-s-full rounded-e-full shadow-xl">Get Started</button>
+            <button class="bg-cyan w-52 py-3 px-6 rounded-s-full rounded-e-full bg-gradient-to-r from-cyan to-blue text-sm font-bold shadow-xl">Get Started</button>
           </section>
         </div>
       </div>
@@ -94,7 +94,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full mb-24 flex justify-center">
+      <div class="w-full mb-28 flex justify-center">
         <section class="max-w-xs">
           <figure class="mb-12">
             <img src="./images/illustration-stay-productive.png" alt="stay productive illustration" />
@@ -113,87 +113,111 @@
           </button>
         </section>
       </div>
-      <div class="w-full flex justify-center">
+      <div class="w-full mb-32 flex justify-center">
         <div class="max-w-xs">
-          <article>
-            <blockquote>
-              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          <div class="bg-quotes bg-no-repeat bg-contain ml-4 h-8 w-16"></div>
+          <article class="bg-dark-blue-testimonials rounded-lg mx-3.5 p-8">
+            <blockquote class="mb-8">
+              <p class="text-[0.625rem] text-left text-white leading-5">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
               become a well-oiled collaboration machine.</p>
             </blockquote>
             <div class="flex flex-row">
-              <img src="./images/profile-1.jpg" alt="profile photo of satish patel" />
+              <img class="w-10 mr-3 rounded-full" src="./images/profile-1.jpg" alt="profile photo of satish patel" />
               <div class="flex flex-col">
-                <p>Satish Patel</p>
-                <p>Founder & CEO, Huddle</p>
+                <p class="text-sm text-white font-bold">Satish Patel</p>
+                <p class="text-[0.625rem] text-white mt-1">Founder & CEO, Huddle</p>
               </div>
             </div>
           </article>
-          <article>
-            <blockquote>
-              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          <article class="bg-dark-blue-testimonials rounded-lg my-10 mx-3.5 p-8">
+            <blockquote class="mb-8">
+              <p class="text-[0.625rem] text-left text-white leading-5">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
               become a well-oiled collaboration machine.</p>
             </blockquote>
             <div class="flex flex-row">
-              <img src="./images/profile-2.jpg" alt="profile photo of bruce mckenzie" />
+              <img class="w-10 mr-3 rounded-full" src="./images/profile-2.jpg" alt="profile photo of bruce mckenzie" />
               <div class="flex flex-col">
-                <p>Bruce McKenzie</p>
-                <p>Founder & CEO, Huddle</p>
+                <p class="text-sm text-white font-bold">Bruce McKenzie</p>
+                <p class="text-[0.625rem] text-white mt-1">Founder & CEO, Huddle</p>
               </div>
             </div>
           </article>
-          <article>
-            <blockquote>
-              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          <article class="bg-dark-blue-testimonials rounded-lg mx-3.5 p-8">
+            <blockquote class="mb-8">
+              <p class="text-[0.625rem] text-left text-white leading-5">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
               become a well-oiled collaboration machine.</p>
             </blockquote>
             <div class="flex flex-row">
-              <img src="./images/profile-3.jpg" alt="profile photo of iva boyd" />
+              <img class="w-10 mr-3 rounded-full" src="./images/profile-3.jpg" alt="profile photo of iva boyd" />
               <div class="flex flex-col">
-                <p>Iva Boyd</p>
-                <p>Founder & CEO, Huddle</p>
+                <p class="text-sm text-white font-bold">Iva Boyd</p>
+                <p class="text-[0.625rem] text-white mt-1">Founder & CEO, Huddle</p>
               </div>
             </div>
           </article>
         </div>
       </div>
-      <!--<form>
-        <h3>Get early access today</h3>
-
-        <label for="email">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-          questions, our support team would be happy to help you.</label>
-        <input type="email" id="email" name="email" placeholder="email@email.com" />
-
-        <button type="submit">Get Started For Free</button>
-      </form>
-      <div>
-        <img src="./images/logo.svg" alt="site footer logo" />
-        <div class="flex flex-row">
-          <img src="./images/icon-location.svg" alt="location icon" />
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-          dolore magna aliqua</span>
+      <div class="w-full flex justify-center w-full">
+        <div class="max-w-xs">
+          <form class="bg-dark-blue-intro flex flex-col justify-center items-center px-9 py-12 rounded-lg shadow-2xl">
+            <h3 class="font-raleway font-bold text-xl text-center text-white">Get early access today</h3>
+    
+            <label class="text-xs text-center text-white my-8" for="email">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+              questions, our support team would be happy to help you.</label>
+            <input class="py-3 px-8 w-full rounded-s-full rounded-e-full outline-none placeholder:text-xs" type="email" id="email" name="email" placeholder="email@example.com" />
+    
+            <button class="mt-6 py-3 px-6 w-full rounded-s-full rounded-e-full bg-gradient-to-r from-cyan to-blue text-sm text-white font-bold" type="submit">Get Started For Free</button>
+          </form>
         </div>
-        <div class="flex flex-row">
-          <img src="./images/icon-phone.svg" alt="phone icon" />
-          <span>+1-543-123-4567</span>
+      </div>
+      <div class="w-full -mt-44 pt-48 bg-dark-blue-footer flex justify-center">
+        <div class="max-w-xs">
+          <div class="pt-12">
+            <img class="w-32" src="./images/logo.svg" alt="site footer logo" />
+            <div class="my-12 space-y-4">
+              <div class="flex flex-row items-center">
+                <img class="w-6 h-6" src="./images/icon-location.svg" alt="location icon" />
+                <span class="text-sm text-left text-white ml-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua</span>
+              </div>
+              <div class="flex flex-row items-center">
+                <img class="w-6 h-6" src="./images/icon-phone.svg" alt="phone icon" />
+                <span class="text-sm text-left text-white ml-4">+1-543-123-4567</span>
+              </div>
+              <div class="flex flex-row items-center">
+                <img class="w-6 h-6" src="./images/icon-email.svg" alt="email icon" />
+                <span class="text-sm text-left text-white ml-4">example@fylo.com</span>
+              </div>
+            </div>
+            <nav class="text-sm text-white space-y-10">
+              <ol class="list-none space-y-4">
+                <li>About Us</li>
+                <li>Jobs</li>
+                <li>Press</li>
+                <li>Blog</li>
+              </ol>
+              <ol class="list-none space-y-4">
+                <li>Contact Us</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+              </ol>
+            </nav>
+            <div class="mt-14 mb-4 lg:mt-6 flex justify-center lg:justify-end">
+              <div class="w-40 lg:w-44 flex flex-row justify-evenly items-center text-center text-xs lg:text-base">
+                <button type="button" class="w-9 h-9 flex justify-center items-center border rounded-full border-white" aria-label="facebook social icon">
+                  <i class="text-lg text-white fa-brands fa-facebook-f"></i>
+                </button>
+                <button type="button" class="w-9 h-9 flex justify-center items-center border rounded-full border-white" aria-label="twitter social icon">
+                  <i class="text-lg text-white text-sm fa-brands fa-twitter"></i>
+                </button>
+                <button type="button" class="w-9 h-9 flex justify-center items-center border rounded-full border-white" aria-label="instagram social icon">
+                  <i class="text-lg text-white text-sm fa-brands fa-instagram"></i>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="flex flex-row">
-          <img src="./images/icon-email.svg" alt="email icon" />
-          <span>example@fylo.com</span>
-        </div>
-        <nav>
-          <ol>
-            <li>About Us</li>
-            <li>Jobs</li>
-            <li>Press</li>
-            <li>Blog</li>
-          </ol>
-          <ol>
-            <li>Contact Us</li>
-            <li>Terms</li>
-            <li>Privacy</li>
-          </ol>
-        </nav>
-      </div>-->
+      </div>
     </div>
   </main>
   <footer>
