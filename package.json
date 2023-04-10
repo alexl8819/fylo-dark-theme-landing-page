@@ -10,6 +10,7 @@
     "lint": "npx eslint ./src"
   },
   "author": "slightlyfunctional",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@angular-eslint/template-parser": "^15.2.1",
     "@fontsource/open-sans": "^4.5.14",
