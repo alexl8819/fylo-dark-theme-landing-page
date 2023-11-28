@@ -25,11 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Mobile Screenshot](./screenshots/mobile.png)
+![Desktop Screenshot](./screenshots/desktop.png)
 
 ### Links
 
-- Live Site URL: [Fylo Dark Theme Landing Page](https://slightlyfunctional.gitlab.io/fylo-dark-theme-landing-page)
+- Live Site URL: [Fylo Dark Theme Landing Page](https://alexl8819.github.io/fylo-dark-theme-landing-page)
 
 ## My process
 
@@ -54,5 +55,4 @@ I've incorporated eslint to ensure best practices are adhered to for cleaner and
 
 ## Author
 
-- Website - [slightlyfunctional.com](https://slightlyfunctional.com)
-- Frontend Mentor - [@slightlyfunctional](https://www.frontendmentor.io/profile/slightlyfunctional)
+- Frontend Mentor - [@alexl8819](https://www.frontendmentor.io/profile/alexl8819)

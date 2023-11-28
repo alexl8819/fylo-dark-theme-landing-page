@@ -9,7 +9,7 @@
     "build": "parcel build --public-url ./ --dist-dir public",
     "lint": "npx eslint ./src"
   },
-  "author": "slightlyfunctional",
+  "author": "alexl8819",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@angular-eslint/template-parser": "^15.2.1",
